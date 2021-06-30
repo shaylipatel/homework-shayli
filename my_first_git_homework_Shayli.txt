@@ -1,0 +1,21 @@
+Session 7  Homework
+Date: Tuesday 29th June 2021
+Instructor - Sabrina
+Due: Thursday 1st July 1pm
+
+GIT WORKFLOW FUNDAMENTALS
+• Working Directory - The working directory is a single checkout of one version of the project.
+• Staging Area - The staging area is like a rough draft , where you can git add the version of a file or multiple files that you want to work on before committing it.
+• Local Repo (head) - Local repositories reside on the computers (i.e. local networks).
+• Remote repo (master) - A remote repository in Git, also called a remote, is a Git repository that's hosted on a server, most likely the Internet or another network.
+WORKING DIRECTORY STATES:
+• Staged - A staging step in git allows you to continue making changes to the working directory and when ready, you can record changes by committing.
+• Modified - A file in the modified state means that changes have been made to it that haven't committed yet.
+• Committed - Any modifications are save any changes to the local repository.
+GIT COMMANDS:
+• Git add -  It adds file contents to the index. This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
+• Git commit - It records changes to the repository. It create a new commit containing the current contents of the index and the given log message describing the changes.
+• Git push - It updates remote refs using local refs along with associated objects
+• Git fetch - It downloads objects and refs from another repository. It fetches branches from one or more other repositories, along with the objects necessary to complete their histories.
+• Git merge - It joins two or more development histories together. It incorporates changes from the named commits into the current branch
+• Git pull - It fetches from and integrates with another repository or a local branch. It incorporates changes from a remote repository into the current branch.
