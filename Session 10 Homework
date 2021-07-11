@@ -1,0 +1,111 @@
+SCRUM CEREMONIES
+•Product backlog refinement
+It creates a shared understanding on what the Product will, and won’t, do, on the effort it will take to implement it, and the order in which you’ll do that.
+It is an ongoing process in which the Product Owner and the Development Team collaborate to ensure that items on the Product Backlog:
+- are understood the same way by all involved (shared understanding),
+- have a size estimate for the (relative) complexity and effort of their implementation, and
+- are ordered according to their priority in terms of business value and effort required.
+
+•Sprint planning
+Sprint planning is an event in scrum that kicks off the sprint.
+The purpose of sprint planning is to define what can be delivered in the sprint and how that work will be achieved.
+Sprint planning is done in collaboration with the whole scrum team.
+The sprint planning session kicks off the sprint by setting the agenda and focus.
+If done correctly, it also creates an environment where the team is motivated, challenged, and can be successful.
+
+•Daily scrum
+It is usually a 15-minute event for the Developers of the Scrum Team which focuses on progress toward the Sprint Goal and produces an actionable plan for the next day of work.
+It is held at the same time and place every working day of the Sprint.
+Daily Scrums improve communications, identify impediments, promote quick decision-making, and consequently eliminate the need for other meetings.
+The Scrum Master ensures that the meeting happens, but the Developers are responsible for conducting the Daily Scrum.
+
+•Sprint review
+The Scrum Team presents the results of their work to key stakeholders and progress toward the Product Goal is discussed.
+During the event, the Scrum Team and stakeholders review what was accomplished in the Sprint and what has changed in their environment.
+Based on this information, attendees collaborate on what to do next.
+The Product Backlog may also be adjusted to meet new opportunities.
+The Sprint Review is a working session and the Scrum Team should avoid limiting it to a presentation.
+The Sprint Review is the second to last event of the Sprint and is timeboxed to a maximum of four hours for a one-month Sprint.
+For shorter Sprints, the event is usually shorter.
+The Sprint Review includes the following elements:
+- Attendees include the Scrum Team and key stakeholders invited by the Product Owner;
+- The Product Owner explains what Product Backlog items have been “Done” and what has not been “Done”;
+- The Developers discuss what went well during the Sprint, what problems it ran into, and how those problems were solved;
+- The Developers demonstrate the work that it has “Done” and answers questions about the Increment;
+- The Product Owner discusses the Product Backlog as it stands.
+They projects likely target and delivery dates based on progress to date (if needed);
+- The entire group collaborates on what to do next, so that the Sprint Review provides valuable input to subsequent Sprint Planning;
+- Review of how the marketplace or potential use of the product might have changed what is the most valuable thing to do next;
+- Review of the timeline, budget, potential capabilities, and marketplace for the next anticipated releases of functionality and capability of the product.
+Result
+The result of the Sprint Review is a revised Product Backlog that defines the probable Product Backlog items for the next Sprint.
+The Product Backlog may also be adjusted overall to meet new opportunities.
+
+•Sprint retrospective
+Sprint retrospective is to plan ways to increase quality and effectiveness.
+The Scrum Team inspects how the last Sprint went with regards to individuals, interactions, processes, tools, and their Definition of Done.
+The Scrum Team discusses what went well during the Sprint, what problems it encountered, and how those problems were (or were not) solved.
+The Sprint Retrospective concludes the Sprint. It is timeboxed to a maximum of three hours for a one-month Sprint.
+For shorter Sprints, the event is usually shorter.
+
+SCRUM ROLES
+•ScrumMaster
+The scrum master helps to facilitate scrum to the larger team by ensuring the scrum framework is followed.
+Scrum masters act as coaches to the rest of the team.
+They are committed to the scrum values and practices, but should also remain flexible and open to opportunities for the team to improve their workflow.
+
+•Product Owner
+A Scrum Product Owner is accountable for maximizing the value of the product resulting from the work of the Scrum Team.
+The product owner should not only understand the customer, but also have a vision for the value the scrum team is delivering to the customer.
+The product owner also balances the needs of other stakeholders in the organization.
+The product owner must take all these inputs and prioritize the work.
+
+
+The Product Owner is also accountable for effective Product Backlog management, which includes:
+- Developing and explicitly communicating the Product Goal;
+- Creating and clearly communicating Product Backlog items;
+- Ordering Product Backlog items; and,
+- Ensuring that the Product Backlog is transparent, visible and understood.
+
+•Development Team.
+Developers are the people in the Scrum Team that are committed to creating any aspect of a usable Increment each Sprint.
+The development team can be comprised of all kinds of people including designers, writers, programmers, etc.
+The development team should be able to self-organize so they can make decisions to get work done.
+The development team, like the production support team, can make decisions and deliver the fix/value for the problem at hand.
+The development team’s responsibilities include:
+- Delivering the work through the sprint.
+- To ensure transparency during the sprint they meet daily at the daily scrum
+
+Question 2
+You are leading a development team that was given a task to create a new yoga booking system.
+High level description of the system is as follows:
+• It has a very simple interface to accept user input (bookings) and display classes information
+• All bookings, appointments, schedule etc should be stored in a SQL database.
+• There is ‘backend’ system that should be written in Python to handle the logic and manage
+the data flow.
+Your team has two weeks to build a simple prototype that will be shown to the client to seek their
+feedback and discuss further enhancements.
+
+SQL
+1. Create database for New Yoga Co. in SQL
+2. Create the following tables in New Yoga Co database
+- user information
+- instructor information
+- class bookings
+- user orders
+- schedule
+
+Python
+3. Create 'Create new account' backend - use input functions for user info and billing info. Connect this to SQL database - user information table
+4. Create 'Timetable' backend where users can see how many spaces are available. Connect this to SQL database - class booking table and timetable.
+5. Create 'Instructor' page - print the instructor information - connect to SQL database - instructor information
+6. Create a booking system for existing users only where spaces are available in the class. Connect this SQL database - booking system.
+
+7. Create a flask app, with different pages for creating accout, timetable, the booking system.
+
+
+
+
+
+
+
