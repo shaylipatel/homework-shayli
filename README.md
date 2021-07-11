@@ -6,3 +6,5 @@ Session 7 - 29th June 2021 - Git & Github
 Session 8 - 30th June 2021 - Exception and Debugging (via Slack)
 
 Session 9 - 1st July 2021 - Testing Module
+
+Theory Assessment due 11th July 2021
