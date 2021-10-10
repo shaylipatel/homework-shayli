@@ -9,4 +9,9 @@ Session 9 - 1st July 2021 - Testing Module
 
 Session 10 - 5th July 2021 - Agile and Dev Lifecycle
 
-Theory Assessment due 11th July 2021
+
+Graded Assessments
+Assessment 2 
+Theory Assessment for Weeeks 1-6
+Final Assessment
+Theory Assessment for Software Engineering Specialisation Stream
